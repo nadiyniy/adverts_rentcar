@@ -68,6 +68,7 @@ const AdvertsCars = () => {
     dispatch(fetchCarsThunk(payload)).then(response => {
       setData([...data, ...response.payload]);
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [displayedCars]);
 
   const loadMore = () => {
