@@ -1,113 +1,48 @@
-# React homework template
+﻿**Car Rental Website Presentation on React.js**
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+**Website:**
 
-## Создание репозитория по шаблону
+Netlify: <https://clinquant-pithivier-699791.netlify.app> 
 
-Используй этот репозиторий организации GoIT как шаблон для создания репозитория
-своего проекта. Для этого нажми на кнопку `«Use this template»` и выбери опцию
-`«Create a new repository»`, как показано на изображении.
+Vercel: <https://adverts-cars-jqssmwvca-vladyslavs-projects-fa3935ae.vercel.app>
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+GitHub: <https://nadiyniy.github.io/adverts_cars>
 
-На следующем шаге откроется страница создания нового репозитория. Заполни поле
-его имени, убедись что репозиторий публичный, после чего нажми кнопку
-`«Create repository from template»`.
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+[](https://clinquant-pithivier-699791.netlify.app/catalog)
 
-После того как репозиторий будет создан, необходимо перейти в настройки
-созданного репозитория на вкладку `Settings` > `Actions` > `General` как
-показано на изображении.
+-----
+**Website Development with React.js**
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+**Key Technologies:**
 
-Проскролив страницу до самого конца, в секции `«Workflow permissions»` выбери
-опцию `«Read and write permissions»` и поставь галочку в чекбоксе. Это
-необходимо для автоматизации процесса деплоя проекта.
+**React.js:** A modern library for building user interfaces.
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+**Redux Toolkit:** Streamlines state management using Redux for enhanced efficiency.
 
-Теперь у тебя есть личный репозиторий проекта, со структурой файлов и папок
-репозитория-шаблона. Далее работай с ним как с любым другим личным репозиторием,
-клонируй его себе на компьютер, пиши код, делай коммиты и отправляй их на
-GitHub.
+**Persist:** Ensures state persistence across page reloads for a seamless user experience.
 
-## Подготовка к работе
+**Axios:** Library for making HTTP requests, facilitating smooth communication with the server.
 
-1. Убедись что на компьютере установлена LTS-версия Node.js.
-   [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-2. Установи базовые зависимости проекта командой `npm install`.
-3. Запусти режим разработки, выполнив команду `npm start`.
-4. Перейди в браузере по адресу [http://localhost:3000](http://localhost:3000).
-   Эта страница будет автоматически перезагружаться после сохранения изменений в
-   файлах проекта.
+**React Router Dom:** Enables seamless navigation within the application and interaction with different pages.
 
-## Деплой
+-----
+**Functionalities of the Website:**
 
-Продакшн версия проекта будет автоматически проходить линтинг, собираться и
-деплоиться на GitHub Pages, в ветку `gh-pages`, каждый раз когда обновляется
-ветка `main`. Например, после прямого пуша или принятого пул-реквеста. Для этого
-необходимо в файле `package.json` отредактировать поле `homepage`, заменив
-`your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
+**List Filtering:** Convenient selection of cars from an available list.
 
-```json
-"homepage": "https://your_username.github.io/your_repo_name/"
-```
+**Price Filtering:** Users can easily choose a car based on their budget.
 
-Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и
-выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
-это небыло сделано автоматически.
+**Mileage Filtering:** An essential feature allowing users to select a vehicle based on the distance they plan to cover.
 
-![GitHub Pages settings](./assets/repo-settings.png)
+-----
+**Additional Features:**
 
-### Статус деплоя
+**Intuitive Interface:** Attractive and user-friendly design for a positive user experience.
 
-Статус деплоя крайнего коммита отображается иконкой возле его идентификатора.
+**Performance Optimization:** Leveraging advanced React technologies for swift and efficient responsiveness.
 
-- **Желтый цвет** - выполняется сборка и деплой проекта.
-- **Зеленый цвет** - деплой завершился успешно.
-- **Красный цвет** - во время линтинга, сборки или деплоя произошла ошибка.
+**Accessibility and Scalability:** Developed with a focus on accessibility principles and the potential for easy feature expansion.
 
-Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
-выпадающем окне перейти по ссылке `Details`.
-
-![Deployment status](./assets/deploy-status.png)
-
-### Живая страница
-
-Через какое-то время, обычно пару минут, живую страницу можно будет посмотреть
-по адресу указанному в отредактированном свойстве `homepage`. Например, вот
-ссылка на живую версию для этого репозитория
-[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
-
-Если открывается пустая страница, убедись что во вкладке `Console` нет ошибок
-связанных с неправильными путями к CSS и JS файлам проекта (**404**). Скорее
-всего у тебя неправильное значение свойства `homepage` в файле `package.json`.
-
-### Маршрутизация
-
-Если приложение использует библиотеку `react-router-dom` для маршрутизации,
-необходимо дополнительно настроить компонент `<BrowserRouter>`, передав в пропе
-`basename` точное название твоего репозитория. Слеш в начале строки обязателен.
-
-```jsx
-<BrowserRouter basename="/your_repo_name">
-  <App />
-</BrowserRouter>
-```
-
-## Как это работает
-
-![How it works](./assets/how-it-works.png)
-
-1. После каждого пуша в ветку `main` GitHub-репозитория, запускается специальный
-   скрипт (GitHub Action) из файла `.github/workflows/deploy.yml`.
-2. Все файлы репозитория копируются на сервер, где проект инициализируется и
-   проходит линтинг и сборку перед деплоем.
-3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
-   отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
-   скрипта будет указано в чем проблема.
+-----
+**We invite you to try our website and take advantage of the convenient car rental system!**
