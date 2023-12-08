@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/adverts_rentcar/static/css/main.7acaea2f.css",
-    "main.js": "/adverts_rentcar/static/js/main.07d3183d.js",
+    "main.css": "/adverts_rentcar/static/css/main.e1b27797.css",
+    "main.js": "/adverts_rentcar/static/js/main.efc83512.js",
+    "static/js/787.7c75ea64.chunk.js": "/adverts_rentcar/static/js/787.7c75ea64.chunk.js",
+    "static/media/welcome-image.jpeg": "/adverts_rentcar/static/media/welcome-image.50febce73cd0f0ae35bc.jpeg",
+    "static/media/pngwing.com.png": "/adverts_rentcar/static/media/pngwing.com.0ed9aa9b7234d4e7c01a.png",
     "index.html": "/adverts_rentcar/index.html",
-    "main.7acaea2f.css.map": "/adverts_rentcar/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/adverts_rentcar/static/js/main.07d3183d.js.map"
+    "static/media/heart.svg": "/adverts_rentcar/static/media/heart.ac060e771360fcc26ebb0c86173c8396.svg",
+    "static/media/heart-favorite.svg": "/adverts_rentcar/static/media/heart-favorite.623a3b874365d724c658e79a860ad4a4.svg",
+    "static/media/close.svg": "/adverts_rentcar/static/media/close.f3cbdd58dc25ca7cbb3d242106b56fb9.svg",
+    "main.e1b27797.css.map": "/adverts_rentcar/static/css/main.e1b27797.css.map",
+    "main.efc83512.js.map": "/adverts_rentcar/static/js/main.efc83512.js.map",
+    "787.7c75ea64.chunk.js.map": "/adverts_rentcar/static/js/787.7c75ea64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.e1b27797.css",
+    "static/js/main.efc83512.js"
   ]
 }
