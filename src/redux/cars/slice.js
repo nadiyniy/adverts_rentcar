@@ -28,7 +28,6 @@ const advertsCarsSlice = createSlice({
   extraReducers: builder => {
     builder
       .addCase(fetchCarsThunk.fulfilled, (state, { payload }) => {
-        // state.cars = [...state.cars, ...payload];
         state.cars = payload;
         state.isLoading = false;
       })
