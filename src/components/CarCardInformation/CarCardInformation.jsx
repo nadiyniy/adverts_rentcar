@@ -60,8 +60,8 @@ const CarCardInformation = ({
         ))}
       </ul>
       <ul className="card-list">
-        {functionalities.map(item => (
-          <li className="card-list-item" key={item}>
+        {functionalities.map((item, index) => (
+          <li className="card-list-item" key={index}>
             {item}
           </li>
         ))}
