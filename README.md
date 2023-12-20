@@ -2,7 +2,8 @@
 
 **Website:**
 
-GitHub: <https://nadiyniy.github.io/adverts_cars>
+Vercel: <https://nadiyniy.github.io/adverts_cars](https://adverts-rentcar.vercel.app>
+Vercel: <https://nadiyniy.github.io/adverts_cars](https://adverts-rentcar.vercel.app](https://dreamy-meerkat-6c3fe8.netlify.app>
 
 
 [](https://clinquant-pithivier-699791.netlify.app/catalog)
