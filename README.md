@@ -2,11 +2,10 @@
 
 **Website:**
 
-Vercel: <https://adverts-rentcar.vercel.app>
-Vercel: <https://dreamy-meerkat-6c3fe8.netlify.app>
+[]Vercel: <https://adverts-rentcar.vercel.app>
+[]Netlify: <https://dreamy-meerkat-6c3fe8.netlify.app>
 
 
-[](https://clinquant-pithivier-699791.netlify.app/catalog)
 
 -----
 **Website Development with React.js**
